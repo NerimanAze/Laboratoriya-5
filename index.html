@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratoriya-5</title>
+</head>
+<body>
+    <div class="contanier">
+        <div class="navbar">
+            <h1><span>Nəriman.</span></h1>
+            <div class="linklər">
+                <p><a class="home" href="#">Home</a></p>
+                <p><a href="#">Photography</a></p>
+                <p><a href="#">Travel</a></p>
+                <p><a href="#">Fashion</a></p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Contact</a></p>
+            </div>
+            <div class="müəllif">
+                <p>Copyright ©2023 All rights reserved<br>This template is made with 🖤 by<br><a href="#">Nəriman</a></p>
+            </div>
+            <div class="sosialmedia">
+                <a href="https://www.facebook.com/neriman.mahmudov.33"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mahmudovv05/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/neriman-mahmudov-021960267"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://nerimanmahmudov05@gmail.com"><i class="fa-brands fa-google"></i></a>
+                <a href="https://nerimanmahmudov05@mail.ru"><i class="fa-sharp fa-solid fa-at"></i></a>
+            </div>
+        </div>
+        <div class="main">
+            <br><br><br><div class="profil"><img src="Neriman.jpg" alt="" height="250px"></div>
+            <div class="hello">
+                <p>Hello I'm</p>
+                <h1>Nəriman Mahmudov</h1>
+                <p class="məlumat">Mən, Mahmudov Nəriman Arif oğlu, 2005-ci ildə Bakı şəhərində anadan<br> olmuşam. 2011-ci ildə Bakı şəhəri, Nərimanov
+                    rayonunda yerləşən<br> "Ankara məktəbi" məktəb-liseyinə daxil olmuşam. 2022-ci ildə liseyi yüksək<br> qiymətlərlə bitirib, qəbul imtahanından
+                    515 bal yığaraq AzTU-nun<br> "İnformasiya Təhlükəsizliyi" ixtisasına daxil olmuşam. Hazırda<br> AzTU-nun 1-ci kurs tələbəsiyəm. Zərbəçiyəm. 
+                    Hal-hazırda məqsədim<br> fənlərdən gözəl qiymət alaraq əlaçı olmaqdır.( Veb səhifəni hazırlayarkən<br> HTML və CSS kodlarından
+                    istifadə etmişəm. Aşağıda isə kalkulyator<br> yaratmışam.)  
+                </p>
+            </div>
+            <div class="əlavə"><a href="#">More About Me<i class="fa-solid fa-right-to-bracket"></i></i></a></div>
+
+            <div class="kalkulyator"> 
+                <div class="calculator">
+                  <form>
+                    <div class="display">
+                        <input type="text" name="display">
+                    </div>
+                    <div>
+                        <input type="button" value="AC" onclick="display.value = '' " class="operator">
+                        <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                        <input type="button" value="." onclick="display.value += '.' " class="operator">
+                        <input type="button" value="/" onclick="display.value += '/' " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="7" onclick="display.value += '7' ">
+                        <input type="button" value="8" onclick="display.value += '8' ">
+                        <input type="button" value="9" onclick="display.value += '9' ">
+                        <input type="button" value="*" onclick="display.value += '*' " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="4" onclick="display.value += '4' ">
+                        <input type="button" value="5" onclick="display.value += '5' ">
+                        <input type="button" value="6" onclick="display.value += '6' ">
+                        <input type="button" value="-" onclick="display.value += '-' " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="1" onclick="display.value += '1' ">
+                        <input type="button" value="2" onclick="display.value += '2' ">
+                        <input type="button" value="3" onclick="display.value += '3' ">
+                        <input type="button" value="+" onclick="display.value += '+' " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="00" onclick="display.value += '00' ">
+                        <input type="button" value="0" onclick="display.value += '0' ">
+                        <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator">                        
+                    </div>
+                  </form>
+                </div>
+            </div>
+
+
+
+
+            
+    
+    </div>
+</body>
+</html>
